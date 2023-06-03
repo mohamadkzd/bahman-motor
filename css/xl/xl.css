@@ -1,0 +1,190 @@
+.container {
+  width: 100%; }
+
+.righi {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #303f9f; }
+  .righi > .logoright > a {
+    width: 100%;
+    display: block;
+    height: 74px;
+    line-height: 121px; }
+    .righi > .logoright > a > img {
+      width: 70px;
+      line-height: 42px;
+      height: 42px;
+      padding: 10px;
+      margin-left: 40px; }
+  .righi > #close {
+    display: none; }
+  .righi > #open {
+    display: none; }
+  .righi > label {
+    display: none; }
+  .righi div.menu {
+    width: 100%;
+    height: 75px;
+    background-color: #303f9f; }
+    .righi div.menu > nav {
+      width: inherit;
+      height: inherit; }
+      .righi div.menu > nav > ul {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        justify-content: right; }
+        .righi div.menu > nav > ul li.close {
+          display: none; }
+        .righi div.menu > nav > ul > li {
+          width: 11%;
+          height: inherit;
+          text-align: center; }
+          .righi div.menu > nav > ul > li > a {
+            display: block;
+            width: 100%;
+            height: inherit;
+            color: whitesmoke;
+            line-height: 75px;
+            cursor: pointer; }
+            .righi div.menu > nav > ul > li > a:hover {
+              background-color: gray;
+              color: aqua; }
+        .righi div.menu > nav > ul > div.logoright {
+          display: flex;
+          width: 50%;
+          justify-content: end;
+          padding: 10px;
+          margin-left: 50px; }
+          .righi div.menu > nav > ul > div.logoright > a > img {
+            width: 100px; }
+  .righi .submenu1:hover .submneu {
+    display: block;
+    height: 350px;
+    background-color: whitesmoke; }
+  .righi .submenu1 > .submneu {
+    display: none;
+    width: 90vw;
+    position: absolute;
+    left: 70px;
+    height: 0; }
+    .righi .submenu1 > .submneu > .menuasli > .span {
+      margin-left: 137px;
+      border-left: 1px solid #f1ebeb;
+      padding-left: 80px;
+      margin-right: 10px; }
+      .righi .submenu1 > .submneu > .menuasli > .span > .darb {
+        margin-bottom: 30px;
+        font-size: 19px;
+        color: #303f9f;
+        margin-top: 15px; }
+      .righi .submenu1 > .submneu > .menuasli > .span > .zirmenu {
+        margin: 0 0 8px 0; }
+
+div.manu {
+  width: 100%;
+  height: 75px;
+  background-color: #303f9f; }
+  div.manu > nav {
+    width: inherit;
+    height: inherit; }
+    div.manu > nav > ul {
+      width: inherit;
+      height: inherit;
+      display: flex;
+      justify-content: center; }
+      div.manu > nav > ul > li {
+        width: 11%;
+        height: inherit;
+        text-align: center; }
+        div.manu > nav > ul > li > a {
+          display: block;
+          width: 100%;
+          height: inherit;
+          color: whitesmoke;
+          line-height: 75px;
+          cursor: pointer; }
+          div.manu > nav > ul > li > a:hover {
+            background-color: gray;
+            color: aqua; }
+
+.submenu1:hover .submneu {
+  display: block;
+  height: 350px;
+  background-color: whitesmoke; }
+
+.submenu1 > .submneu {
+  display: none;
+  width: 90vw;
+  position: absolute;
+  left: 70px;
+  height: 0; }
+  .submenu1 > .submneu > .menuasli > .span {
+    margin-left: 137px;
+    border-left: 1px solid #f1ebeb;
+    padding-left: 80px;
+    margin-right: 10px; }
+    .submenu1 > .submneu > .menuasli > .span > .darb {
+      margin-bottom: 30px;
+      font-size: 19px;
+      color: #303f9f;
+      margin-top: 15px; }
+    .submenu1 > .submneu > .menuasli > .span > .zirmenu {
+      margin: 0 0 8px 0; }
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px; }
+  .swiper-slide > img {
+    display: block;
+    width: 100%;
+    height: 400px; }
+
+.imagerk > h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 30px 50px; }
+  .imagerk > h2 > a {
+    display: block;
+    color: #303f9f; }
+
+.imagerk > .imagwq {
+  display: flex;
+  justify-content: space-around; }
+  .imagerk > .imagwq > .qw {
+    display: block; }
+    .imagerk > .imagwq > .qw > .aks {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border: 1px solid #d6dfd5b9; }
+      .imagerk > .imagwq > .qw > .aks > .matn {
+        padding: 10px 0;
+        display: block;
+        transition: 300ms; }
+        .imagerk > .imagwq > .qw > .aks > .matn:hover {
+          color: #0066ff; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #303f9f;
+  height: 250px; }
+  .footer .ref {
+    width: 25%;
+    margin: 50px 50px 20px 0; }
+    .footer .ref .logo > a > img {
+      width: 150px; }
+    .footer .ref > .matna {
+      color: whitesmoke;
+      margin-top: 20px; }
+    .footer .ref > h3 {
+      font-size: 25px;
+      color: white;
+      margin-bottom: 20px; }
+    .footer .ref > p {
+      margin-bottom: 10px;
+      color: white; }

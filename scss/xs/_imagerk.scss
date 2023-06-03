@@ -1,0 +1,37 @@
+.imagerk {
+     > h2 {
+       font-size: 25px;
+       font-weight: bold;
+       margin: 30px 50px;
+       > a {
+         display: block;
+         color: #303f9f;
+       }
+     }
+     > .imagwq {
+       display: flex;
+       justify-content: space-around;
+       flex-direction: column;
+       > .qw {
+         display: block;
+         > .aks {
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+           border: 1px solid #d6dfd5b9;
+            img {
+             width: 300px !important;
+           }
+           > .matn {
+             padding: 10px 0;
+             display: block;
+             transition: 300ms;
+             &:hover {
+               color: rgb(0, 102, 255);
+             }
+           }
+         }
+       }
+     }
+   }
+   

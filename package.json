@@ -1,0 +1,21 @@
+{
+  "name": "bahman-motor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass -w scss/ -o css/ -r ",
+    "2xl": "node-sass -w scss/2xl -o css/2xl -r ",
+    "xl": "node-sass -w scss/xl -o css/xl -r ",
+    "lg": "node-sass -w scss/lg -o css/lg -r ",
+    "md": "node-sass -w scss/md -o css/md -r ",
+    "sm": "node-sass -w scss/sm -o css/sm -r ",
+    "xs": "node-sass -w scss/xs -o css/xs -r "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

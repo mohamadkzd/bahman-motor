@@ -1,0 +1,181 @@
+.container {
+  width: 100%;
+}
+.righi {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #303f9f;
+  > .logoright {
+    > a {
+      width: 100%;
+      display: block;
+      height: 74px;
+      line-height: 121px;
+      > img {
+        width: 70px;
+        line-height: 42px;
+        height: 42px;
+        padding: 10px;
+        margin-left: 40px;
+      }
+    }
+  }
+  > #close {
+    display: none;
+  }
+  > #open {
+    display: none;
+  }
+  > label {
+    display: none;
+  }
+  div.menu {
+    width: 100%;
+    height: 75px;
+    background-color: #303f9f;
+    > nav {
+      width: inherit;
+      height: inherit;
+      > ul {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        justify-content:right;
+        // column-gap: 10px;
+        li.close{
+          display: none;
+        }
+        > li {
+          width: 13%;
+          height: inherit;
+          // line-height: 45px;
+          text-align: center;
+          > a {
+            display: block;
+            width: 100%;
+            height: inherit;
+            color: whitesmoke;
+            line-height: 75px;
+            // margin: 0 20px;
+            cursor: pointer;
+            &:hover {
+              background-color: gray;
+              color: aqua;
+            }
+          }
+        }
+        > div.logoright {
+          display: flex;
+          width: 50%;
+          justify-content: end;
+          padding: 10px;
+          margin-left: 50px;
+          > a {
+            > img {
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .submenu1 {
+    &:hover .submneu {
+      display: block;
+      height: 350px;
+      background-color: whitesmoke;
+    }
+    > .submneu {
+      display: none;
+      width: 82vw;
+      position: absolute;
+      left: 70px;
+      height: 0;
+
+      > .menuasli {
+        > .span {
+          // margin-left: 137px;
+          border-left: 1px solid #f1ebeb;
+          padding-left: 80px;
+          margin-right: 10px;
+          > .darb {
+            margin-bottom: 30px;
+            font-size: 19px;
+            color: #303f9f;
+            margin-top: 15px;
+          }
+          > .zirmenu {
+            margin: 0 0 8px 0;
+          }
+        }
+      }
+    }
+  }
+}
+// div.manu {
+//   width: 100%;
+//   height: 75px;
+//   background-color: #303f9f;
+//   > nav {
+//     width: inherit;
+//     height: inherit;
+//     > ul {
+//       width: inherit;
+//       height: inherit;
+//       display: flex;
+//       justify-content: center;
+//       // column-gap: 10px;
+//       > li {
+//         width: 14%;
+//         height: inherit;
+//         text-align: center;
+//         > a {
+//           display: block;
+//           width: 100%;
+//           height: inherit;
+//           color: whitesmoke;
+//           line-height: 75px;
+//           // margin: 0 20px;
+//           cursor: pointer;
+//           &:hover {
+//             background-color: gray;
+//             color: aqua;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .submenu1 {
+//   &:hover .submneu {
+//     display: block;
+//     height: 350px;
+//     background-color: whitesmoke;
+//   }
+//   > .submneu {
+//     display: none;
+//     width: 90vw;
+//     position: absolute;
+//     left: 70px;
+//     height: 0;
+
+//     > .menuasli {
+//       > .span {
+//         margin-left: 137px;
+//         border-left: 1px solid #f1ebeb;
+//         padding-left: 80px;
+//         margin-right: 10px;
+//         > .darb {
+//           margin-bottom: 30px;
+//           font-size: 19px;
+//           color: #303f9f;
+//           margin-top: 15px;
+//         }
+//         > .zirmenu {
+//           margin: 0 0 8px 0;
+//         }
+//       }
+//     }
+//   }
+// }
